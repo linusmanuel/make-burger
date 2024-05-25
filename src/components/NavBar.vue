@@ -1,7 +1,7 @@
 <template>
   <nav id="nav">
       <router-link to="/" id="url-logo"> 
-        <img :src="logo" :alt="alt" id="logo">
+        <img src="../assets/img/logo.png" :alt="alt" id="logo">
       </router-link>
       <router-link to="/">Home</router-link>
       <router-link to="/pedidos">Pedidos</router-link>
@@ -32,7 +32,7 @@ export default {
 }
 
 #logo {
-
+  width: 40px;
 }
 
 #nav a {

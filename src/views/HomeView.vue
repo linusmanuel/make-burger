@@ -1,13 +1,20 @@
 <template>
-  <div class="main-container">
-    <h1>Home Page</h1>
+  <div>
+    <Banner />
+    <div class="main-container">
+      <h1>Monte seu hamburguer:</h1>
+      <p>Formulario</p>
+    </div>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
+import Banner from '../components/Banner.vue'
 
 export default {
   name: 'HomeView',
+  components: {
+    Banner,
+  }
 }
 </script>

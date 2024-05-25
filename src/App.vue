@@ -17,7 +17,7 @@ import NavBar from './components/NavBar.vue'
     }, 
     data() {
       return {
-        logo_src: '/img/logo.png',
+        logo_src: '../assets/img/logo.png',
         app_name: 'Make your burger'
       }
     }
